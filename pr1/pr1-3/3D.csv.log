@@ -1,0 +1,48 @@
+Processing CHEMBL567175 in molecule.smi (1/2951). 
+Processing CHEMBL2113666 in molecule.smi (2/2951). 
+Processing CHEMBL334715 in molecule.smi (4/2951). 
+Processing CHEMBL610009 in molecule.smi (10/2951). 
+Processing CHEMBL1649941 in molecule.smi (3/2951). 
+Processing CHEMBL1649943 in molecule.smi (11/2951). 
+Processing CHEMBL3759292 in molecule.smi (14/2951). 
+Processing CHEMBL68412 in molecule.smi (15/2951). 
+Processing CHEMBL3785854 in molecule.smi (5/2951). 
+Processing CHEMBL607125 in molecule.smi (6/2951). 
+Processing CHEMBL1649948 in molecule.smi (7/2951). 
+Processing CHEMBL334970 in molecule.smi (12/2951). 
+Processing CHEMBL1766207 in molecule.smi (13/2951). 
+Processing CHEMBL4066752 in molecule.smi (16/2951). 
+Processing CHEMBL538700 in molecule.smi (8/2951). 
+Processing CHEMBL610046 in molecule.smi (9/2951). 
+Processing CHEMBL2113671 in molecule.smi (17/2951). Average speed: 0.30 s/mol.
+Processing CHEMBL3758712 in molecule.smi (18/2951). Average speed: 0.36 s/mol.
+Processing CHEMBL375504 in molecule.smi (19/2951). Average speed: 0.30 s/mol.
+Exception in thread "Thread-14" java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedReader.<init>(Unknown Source)
+	at java.io.BufferedReader.<init>(Unknown Source)
+	at org.openscience.cdk.io.MDLV2000Reader.setReader(MDLV2000Reader.java:157)
+	at org.openscience.cdk.io.MDLV2000Reader.setReader(MDLV2000Reader.java:163)
+	at org.openscience.cdk.io.iterator.IteratingMDLReader.hasNext(IteratingMDLReader.java:259)
+	at org.openscience.cdk.modeling.builder3d.TemplateHandler3D.loadTemplates(TemplateHandler3D.java:114)
+	at org.openscience.cdk.modeling.builder3d.TemplateHandler3D.mapTemplates(TemplateHandler3D.java:199)
+	at org.openscience.cdk.modeling.builder3d.ModelBuilder3D.generate3DCoordinates(ModelBuilder3D.java:209)
+	at libpadeldescriptor.libPaDELDescriptorWorker.DoJob(Unknown Source)
+	at libpadeljobs.Worker.run(Worker.java:46)
+Exception in thread "Thread-19" java.lang.OutOfMemoryError: Java heap space
+	at java.io.BufferedReader.<init>(Unknown Source)
+	at java.io.BufferedReader.<init>(Unknown Source)
+	at org.openscience.cdk.io.MDLV2000Reader.setReader(MDLV2000Reader.java:157)
+	at org.openscience.cdk.io.MDLV2000Reader.setReader(MDLV2000Reader.java:163)
+	at org.openscience.cdk.io.iterator.IteratingMDLReader.hasNext(IteratingMDLReader.java:259)
+	at org.openscience.cdk.modeling.builder3d.TemplateHandler3D.loadTemplates(TemplateHandler3D.java:114)
+	at org.openscience.cdk.modeling.builder3d.TemplateHandler3D.mapTemplates(TemplateHandler3D.java:199)
+	at org.openscience.cdk.modeling.builder3d.ModelBuilder3D.generate3DCoordinates(ModelBuilder3D.java:209)
+	at libpadeldescriptor.libPaDELDescriptorWorker.DoJob(Unknown Source)
+	at libpadeljobs.Worker.run(Worker.java:46)
+Exception in thread "Thread-13" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-18" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-12" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-16" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-15" java.lang.OutOfMemoryError: Java heap space
+Exception in thread "Thread-17" java.lang.OutOfMemoryError: Java heap space
+All workers stopped for unknown reason.
